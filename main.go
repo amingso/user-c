@@ -1,13 +1,13 @@
 package main
 
 import (
-	baseInterceptor "boolyeye.com/base/interceptor"
-	"boolyeye.com/base/server"
-	"boolyeye.com/db/redis"
-	sqldb "boolyeye.com/db/sqldb"
-	"boolyeye.com/uc/uc-svc/context"
-	"boolyeye.com/uc/uc-api/api-loginx/interceptor"
-	"boolyeye.com/uc/uc-api/api-loginx/router"
+	baseInterceptor "github.com/amingso/user-c/base/interceptor"
+	"github.com/amingso/user-c/base/server"
+	"github.com/amingso/user-c/db/redis"
+	sqldb "github.com/amingso/user-c/db/sqldb"
+	"github.com/amingso/user-c/uc/uc-svc/context"
+	"github.com/amingso/user-c/uc/uc-api/api-loginx/interceptor"
+	"github.com/amingso/user-c/uc/uc-api/api-loginx/router"
 )
 
 func main()  {
