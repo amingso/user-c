@@ -1,2 +1,2 @@
 # user-c
-auth2.0 go
+auth2.0 study
